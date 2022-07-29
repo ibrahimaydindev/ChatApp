@@ -13,6 +13,8 @@
         <entry key="..\:/ChatApp/app/src/main/res/layout/row_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/ChatApp/app/src/main/res/layout/row_layout_right.xml" value="0.25416666666666665" />
         <entry key="..\:/ChatApp/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/ChatApp/app/src/main/res/menu/signOutMenu.xml" value="0.264" />
+        <entry key="..\:/ChatApp/app/src/main/res/menu/signout.xml" value="0.23981481481481481" />
         <entry key="..\:/ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
         <entry key="..\:/ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
       </map>

@@ -11,6 +11,8 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
+import android.view.Menu
+import android.view.MenuInflater
 
 
 class  ListFragment : Fragment() {
@@ -90,17 +92,5 @@ class  ListFragment : Fragment() {
         _binding = null
     }
 
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.menu,menu)
-        super.onCreateOptionsMenu(menu, inflater)
-    }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id=item.itemId
-        if(id==R.id.signOut){
-            val action =ListFragmentDirections.actionListFragmentToLoginFragment()
-            findNavController().navigate(action)
-        }
-        return super.onOptionsItemSelected(item)
-    }
 }
